@@ -1,0 +1,122 @@
+NASDAQ_STOCK, NASDAQ_ETF, NASDAQ_INDEX = 'stocks', 'etf', 'index'
+
+# ToDo:: Move to Lagoon
+NASDAQ_EXCLUDE_TICKERS = []
+
+MERVAL_LIDER = [
+    # {'ticker': 'ALUA', 'name': 'Aluar', 'source': 'iol'},
+    {'ticker': 'BBAR', 'name': 'BBVA', 'source': 'iol'},
+    {'ticker': 'BMA', 'name': 'Banco Macro', 'source': 'iol'},
+    {'ticker': 'BYMA', 'name': 'Bolsas Y Mercados Argentinos', 'source': 'iol'},
+    {'ticker': 'CEPU', 'name': 'Central Puerto', 'source': 'iol'},
+    # {'ticker': 'COME', 'name': 'Sociedad Comercial del Plata', 'source': 'iol'},
+    # {'ticker': 'CRES', 'name': 'Cresud', 'source': 'iol'},
+    # {'ticker': 'CVH', 'name': 'Cablevision Holding', 'source': 'iol'},
+    # {'ticker': 'EDN', 'name': 'Edenor', 'source': 'iol'},
+    {'ticker': 'GGAL', 'name': 'Grupo Financiero Galicia', 'source': 'iol'},
+    # {'ticker': 'HARG', 'name': 'Holcim', 'source': 'iol'},
+    # {'ticker': 'LOMA', 'name': 'Loma Negra', 'source': 'iol'},
+    # {'ticker': 'MIRG', 'name': 'Mirgor', 'source': 'iol'},
+    # {'ticker': 'PAMP', 'name': 'Pampa Energía', 'source': 'iol'},
+    # {'ticker': 'SUPV', 'name': 'Grupo Supervielle', 'source': 'iol'},
+    # {'ticker': 'TECO2', 'name': 'Telecom Argentina', 'source': 'iol'},
+    # {'ticker': 'TGNO4', 'name': 'Transportadora Gas del Norte', 'source': 'iol'},
+    # {'ticker': 'TGSU2', 'name': 'Transportadora Gas del Sur', 'source': 'iol'},
+    # {'ticker': 'TRAN', 'name': 'Transener', 'source': 'iol'},
+    # {'ticker': 'TXAR', 'name': 'Ternium Argentina', 'source': 'iol'},
+    {'ticker': 'VALO', 'name': 'Banco de Valores', 'source': 'iol'},
+    # {'ticker': 'YPFD', 'name': 'YPF', 'source': 'iol'}
+]
+
+MERVAL_GENERAL = [
+    # {'ticker': 'AGRO', 'name': 'Agrometal', 'source': 'iol'},
+    # {'ticker': 'AUSO', 'name': 'Autopistas del Sol', 'source': 'iol'},
+    {'ticker': 'BHIP', 'name': 'Banco Hipotecario', 'source': 'iol'},
+    # {'ticker': 'BOLT', 'name': 'Boldt', 'source': 'iol'},
+    {'ticker': 'BPAT', 'name': 'Banco Patagonia', 'source': 'iol'},
+    {'ticker': 'BRIO', 'name': 'Banco Santander', 'source': 'iol'},
+    {'ticker': 'CADO', 'name': 'Carlos Casado', 'source': 'iol'},
+    {'ticker': 'CAPX', 'name': 'Capex', 'source': 'iol'},
+    # {'ticker': 'CARC', 'name': 'Carboclor', 'source': 'iol'},
+    # {'ticker': 'CECO2', 'name': 'Endesa Costanera', 'source': 'iol'},
+    # {'ticker': 'CELU', 'name': 'Celulosa', 'source': 'iol'},
+    # {'ticker': 'CGPA2', 'name': 'Camuzzi Gas Pampeana', 'source': 'iol'},
+    {'ticker': 'CTIO', 'name': 'Consultatio', 'source': 'iol'},
+    # {'ticker': 'DGCU2', 'name': 'Distribuidora de Gas Cuyana', 'source': 'iol'},
+    {'ticker': 'DOME', 'name': 'Domec', 'source': 'iol'},
+    {'ticker': 'DYCA', 'name': 'Dycasa', 'source': 'iol'},
+    {'ticker': 'EDLH', 'name': 'EDESAL Holding', 'source': 'iol'},
+    {'ticker': 'ESME', 'name': 'Bodegas Esmeralda', 'source': 'iol'},
+    # {'ticker': 'FERR', 'name': 'Ferrum', 'source': 'iol'},
+    # {'ticker': 'FIPL', 'name': 'Fiplasto', 'source': 'iol'},
+    # {'ticker': 'GAMI', 'name': 'B-Gaming S.A.', 'source': 'iol'},
+    {'ticker': 'GARO', 'name': 'Garovaglio', 'source': 'iol'},
+    # {'ticker': 'GBAN', 'name': 'Gas Natural BAN', 'source': 'iol'},
+    # {'ticker': 'GCDI', 'name': 'Gcdi S.A.', 'source': 'iol'},
+    # {'ticker': 'GCLA', 'name': 'Grupo Clarin', 'source': 'iol'},
+    # {'ticker': 'GRIM', 'name': 'Grimoldi', 'source': 'iol'},
+    # {'ticker': 'HAVA', 'name': 'Havanna', 'source': 'iol'},
+    # {'ticker': 'INAG', 'name': 'Insumos Agroquímicos', 'source': 'iol'},
+    # {'ticker': 'INTR', 'name': 'Compania Introductora Bs As', 'source': 'iol'},
+    {'ticker': 'INVJ', 'name': 'Inversora Juramento', 'source': 'iol'},
+    {'ticker': 'IRCP', 'name': 'Alto Palermo', 'source': 'iol'},
+    {'ticker': 'IRSA', 'name': 'Irsa', 'source': 'iol'},
+    # {'ticker': 'LEDE', 'name': 'Ledesma', 'source': 'iol'},
+    # {'ticker': 'LONG', 'name': 'Longvie', 'source': 'iol'},
+    # {'ticker': 'METR', 'name': 'Metrogas', 'source': 'iol'},
+    # {'ticker': 'MOLA', 'name': 'Molinos Agro', 'source': 'iol'},
+    # {'ticker': 'MOLI', 'name': 'Molinos Río De La Plata', 'source': 'iol'},
+    # {'ticker': 'MORI', 'name': 'Morixe Hermanos', 'source': 'iol'},
+    {'ticker': 'MTR', 'name': 'Matba Rofex S.A.', 'source': 'iol'},
+    # {'ticker': 'OEST', 'name': 'Grupo Concesion Oeste', 'source': 'iol'},
+    # {'ticker': 'PATA', 'name': 'Imp. y Exportadora Patagonia', 'source': 'iol'},
+    # {'ticker': 'PGR', 'name': 'Phoenix Global Resources', 'source': 'iol'},
+    # {'ticker': 'POLL', 'name': 'Polledo', 'source': 'iol'},
+    # {'ticker': 'RICH', 'name': 'Laboratorios Richmond', 'source': 'iol'},
+    # {'ticker': 'RIGO', 'name': 'Rigolleau', 'source': 'iol'},
+    # {'ticker': 'SAMI', 'name': 'San Miguel', 'source': 'iol'},
+    # {'ticker': 'SEMI', 'name': 'Molinos Juan Semino', 'source': 'iol'}
+]
+
+
+# MERVAL_ADR = [
+#     {'ticker': 'BBAR', 'name': 'BBVA', 'source': 'nasdaq'},
+#     {'ticker': 'BMA', 'name': 'Banco Macro', 'source': 'nasdaq'},
+#     # {'ticker': 'CEPU', 'name': 'Central Puerto', 'source': 'nasdaq'},
+#     # {'ticker': 'CRESY', 'name': 'Cresud', 'source': 'nasdaq'},
+#     # {'ticker': 'EDN', 'name': 'Edenor', 'source': 'nasdaq'},
+#     {'ticker': 'GGAL', 'name': 'Grupo Financiero Galicia', 'source': 'nasdaq'},
+#     # {'ticker': 'IRS', 'name': 'Irsa', 'source': 'nasdaq'},
+#     # {'ticker': 'LOMA', 'name': 'Loma Negra', 'source': 'nasdaq'},
+#     # {'ticker': 'PAM', 'name': 'Pampa Energía', 'source': 'nasdaq'},
+#     {'ticker': 'SUPV', 'name': 'Grupo Supervielle', 'source': 'nasdaq'},
+#     # {'ticker': 'TEO', 'name': 'Telecom Argentina', 'source': 'nasdaq'},
+#     # {'ticker': 'TGS', 'name': 'Transportadora Gas del Sur', 'source': 'nasdaq'},
+#     # {'ticker': 'TS', 'name': 'Tenaris', 'source': 'nasdaq'},
+#     # {'ticker': 'TX', 'name': 'Ternium', 'source': 'nasdaq'},
+#     # {'ticker': 'CAAP', 'name': 'Corp. America', 'source': 'nasdaq'},
+#     # {'ticker': 'VIST', 'name': 'Vista', 'source': 'nasdaq'},
+#     # {'ticker': 'YPF', 'name': 'YPF', 'source': 'nasdaq'}
+# ]
+
+MERVAL_ADR = [
+    {'ticker': 'BBAR', 'name': 'BBVA', 'source': 'nasdaq'},
+    {'ticker': 'BMA', 'name': 'Banco Macro', 'source': 'nasdaq'},
+    {'ticker': 'CEPU', 'name': 'Central Puerto', 'source': 'nasdaq'},
+    {'ticker': 'CRESY', 'name': 'Cresud', 'source': 'nasdaq'},
+    {'ticker': 'EDN', 'name': 'Edenor', 'source': 'nasdaq'},
+    {'ticker': 'GGAL', 'name': 'Grupo Financiero Galicia', 'source': 'nasdaq'},
+    {'ticker': 'IRS', 'name': 'Irsa', 'source': 'nasdaq'},
+    {'ticker': 'LOMA', 'name': 'Loma Negra', 'source': 'nasdaq'},
+    {'ticker': 'PAM', 'name': 'Pampa Energía', 'source': 'nasdaq'},
+    {'ticker': 'SUPV', 'name': 'Grupo Supervielle', 'source': 'nasdaq'},
+    {'ticker': 'TEO', 'name': 'Telecom Argentina', 'source': 'nasdaq'},
+    {'ticker': 'TGS', 'name': 'Transportadora Gas del Sur', 'source': 'nasdaq'},
+    {'ticker': 'TS', 'name': 'Tenaris', 'source': 'nasdaq'},
+    {'ticker': 'TX', 'name': 'Ternium', 'source': 'nasdaq'},
+    {'ticker': 'CAAP', 'name': 'Corp. America', 'source': 'nasdaq'},
+    {'ticker': 'VIST', 'name': 'Vista', 'source': 'nasdaq'},
+    {'ticker': 'YPF', 'name': 'YPF', 'source': 'nasdaq'}
+]
+
+MERVAL = MERVAL_LIDER + MERVAL_GENERAL
